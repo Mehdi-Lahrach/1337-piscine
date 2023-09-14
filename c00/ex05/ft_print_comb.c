@@ -6,7 +6,7 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 18:17:55 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/13 19:00:14 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/09/14 22:26:30 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,10 +45,4 @@ void	ft_print_comb(void)
 		}
 		a++;
 	}
-}
-
-int	main(void)
-{
-	ft_print_comb();
-	return (0);
 }

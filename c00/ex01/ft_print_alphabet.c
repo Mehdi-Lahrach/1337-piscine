@@ -6,7 +6,7 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 13:49:39 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/13 14:57:30 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/09/14 22:07:16 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,4 @@ void	ft_print_alphabet(void)
 		write(1, &c, 1);
 		c++;
 	}
-}
-
-int	main(void)
-{
-	ft_print_alphabet();
-	return (0);
 }
