@@ -1,25 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/16 14:46:18 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/16 23:21:38 by elahrach         ###   ########.fr       */
+/*   Created: 2023/09/18 21:00:34 by elahrach          #+#    #+#             */
+/*   Updated: 2023/09/18 21:17:35 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putstr(char *str)
+int	ft_str_is_printable(char *str)
 {
 	int	i;
 
 	i = 0;
 	while (str[i] != '\0')
 	{
-		write(1, &str[i], 1);
+		if (str[i] < 32 || str[i] > 126)
+		{
+			return (0);
+		}
 		i++;
 	}
+	return (1);
 }
