@@ -6,12 +6,11 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 23:07:51 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/19 16:11:26 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/09/19 16:28:25 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdio.h>
 
 int	is_alphanumeric(char c)
 {
