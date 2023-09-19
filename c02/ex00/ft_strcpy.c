@@ -6,13 +6,13 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 14:27:22 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/18 14:53:49 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/09/19 16:25:51 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-char	*ft_strpy(char *dest, char *src)
+char	*ft_strcpy(char *dest, char *src)
 {
 	int	i;
 

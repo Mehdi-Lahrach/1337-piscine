@@ -6,13 +6,13 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 21:47:14 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/18 22:07:41 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/09/19 16:22:34 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-char	ft_strlowcase(char *str)
+char	*ft_strlowcase(char *str)
 {
 	int	i;
 
