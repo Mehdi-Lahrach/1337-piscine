@@ -6,11 +6,11 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 21:47:14 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/18 21:51:31 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/09/18 22:07:41 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unists.h>
+#include <unistd.h>
 
 char	ft_strlowcase(char *str)
 {
