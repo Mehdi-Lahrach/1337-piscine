@@ -6,7 +6,7 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 21:05:04 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/22 00:26:55 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/09/22 02:29:22 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,12 +44,4 @@ void	ft_putstr_non_printable(char *str)
 		}
 		i++;
 	}
-}
-
-int main() {
-    char str[] = "Hello, \tWorld!\n"; // Example non-printable characters
-
-    ft_putstr_non_printable(str);
-
-    return 0;
 }
