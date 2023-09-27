@@ -6,13 +6,13 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/26 16:47:12 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/26 20:21:23 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/09/27 12:52:34 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	ft_recursive_power(int nb, int power)
+int	ft_iterative_power(int nb, int power)
 {	
 	int	i;
 
