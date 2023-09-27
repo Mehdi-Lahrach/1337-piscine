@@ -6,7 +6,7 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 11:25:27 by elahrach          #+#    #+#             */
-/*   Updated: 2023/09/27 12:27:52 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/09/27 21:56:27 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_is_prime(int nb)
 	i = 2;
 	if (nb < 2)
 		return (0);
-	while (i <= nb / 2)
+	while (i <= nb / i)
 	{
 		if (nb % i == 0)
 			return (0);
