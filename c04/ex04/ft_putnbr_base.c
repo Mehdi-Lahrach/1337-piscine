@@ -6,7 +6,7 @@
 /*   By: elahrach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/30 22:41:21 by elahrach          #+#    #+#             */
-/*   Updated: 2023/10/01 00:34:59 by elahrach         ###   ########.fr       */
+/*   Updated: 2023/10/01 17:28:05 by elahrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,3 +64,20 @@ void	ft_putnbr_base(int nbr, char *base)
 	c = base[n % base_len];
 	ft_putchar(c);
 }
+
+
+int main()
+{
+	ft_putnbr_base(123, "0123456789");
+}
+
+
+
+
+
+
+
+
+
+
+
